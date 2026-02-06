@@ -53,7 +53,8 @@
 # Render Pipeline(RP)란 무엇인가?
 
 ## 게임이 화면에 그려지는  과정 (CPU -> GPU -> 화면)
-![[01RP_CPU_GPU.webp]]
+
+![게임이 화면에 그려지는 과정](Resources/01RP_CPU_GPU.webp)
 
 ## 1) 정리
 
@@ -67,18 +68,24 @@
 ## 2) GPU관점에서 RP 를 처리하는 최소 단위
 
 ### 2-1) Vertex(점)
-![[Vertex_Polygon.jpg]]
+
+![Vertex](Resources/Vertex_Polygon.jpg)
 
 - 3D 공간상의 **한 점**을 의미합니다. 좌표 (x, y, z)로 구성.
 
+<br>
+
 ### 2-2 Polygon(면, 다각형)
+
+![Vertex](Resources/Vertex_Polygon.jpg)
 
 - Vertex(점) 들이 모여 만들어지는 **최소의 면 단위**.
 
+<br>
 
 ### 2-3 Mesh (모델)
 
-![[폴리곤 예시.jpg]]
+![폴리곤 예시]( <Resources/폴리곤 예시.jpg> )
 
 - **메시(Mesh)**: 면(Polygon)들의 집합 = 모델
 
@@ -88,8 +95,11 @@
 > 그 점들을 이어서 Polygon이라는 면을 만들어서 모델을 이루고,
 > 최종적으로 Pixel에 색을 채워 넣는다.
 
+<br>
 
-![[Pasted image 20260204205037.png|500]]
+![]( <Resources/Pasted image 20260204205037.png> )
+
+<br>
 
 - **Mesh Filter**: 어떤 모양(Mesh)을 쓸 것인가?
 - **Mesh Renderer**: 그 모양을 화면에 '그리는' 담당자. (Material 참조)
@@ -104,9 +114,9 @@
 ## 3-1. Texture
 +UV Mapping
 
-![[Pasted image 20260204205314.jpg|600]]
+![]( <Resources/Pasted image 20260204205314.jpg> )
 
-![[Pasted image 20260204205235.jpg|600]]
+![]( <Resources/Pasted image 20260204205235.jpg> )
 
 ### 3-1-1. UV Mapping
 - 3D 표면의 위치(점/면)와 2D 텍스처의 위치(UV 좌표)를 연결하는 과정.
@@ -114,12 +124,16 @@
 
 ### 3-1.2 Auto Mapping Tools
 
-![[Pasted image 20260205104518.png]]
-![[imJ3y8h8k2UyUb16CCGLa35lmCz3Ho_fH9iWI52KhWxDIJ1bTd7DMGNCB83KoY3S51aRRjclO9dMpgL5gEoKyA.webp|250]]![[Pasted image 20260204204224.png|250]]
+![]( <Resources/Pasted image 20260204204204.png> )
+
+![]( <Resources/imJ3y8h8k2UyUb16CCGLa35lmCz3Ho_fH9iWI52KhWxDIJ1bTd7DMGNCB83KoY3S51aRRjclO9dMpgL5gEoKyA.webp> )
+
+![]( <Resources/Pasted image 20260204204224.png> )
 
 ### 3-2. Material
 
-![[Pasted image 20260204210613.png]]
+![]( <Resources/Pasted image 20260204210613.png]> )
+
 - 게임 화면에 보이는 **질감**을 담당합니다.
 - 색상, 질감, 빛, 투명도 등 정보를 포함합니다.
 
@@ -127,12 +141,14 @@
 - Material이 가진 Texture 혹은 색상 정보를 조합해서 화면에 최종적으로 질감을 입히는 역할!
 - Shader (틀/설계도): 어떤 데이터를 담을 **빈 칸(속성)** 을 가진다
 
-![[Shader.jpg]]
+![](Resources/Shader.jpg)
+
 
 ---
 # 그래픽 처리 순서 (게임 엔진)
 
-![[01RP_CPU_GPU.webp]]
+![](Resources/01RP_CPU_GPU.webp)
+
 
 ## 4가지 (거시적)
 1. **CPU 명령 (Draw-Call)**
@@ -174,7 +190,8 @@
 [직접 설정]
 - **오클루전 컬링(CPU/GPU)**: 앞에 있는 물체에 완전히 가려졌는가? (가려진 놈 버려)
 
-![[Pasted image 20260205004153.png]]
+![df](Resources/[Pasted image 20260205004153.png)
+
 
 ### 4~5단계 (비주얼 담당 = 색 칠하기)
 
@@ -182,7 +199,8 @@
 
 > 출력될 **픽셀 조각**들로 쪼개는 과정임.
 
-![[Pasted image 20260205004723.jpg|600]]
+![]( <Resources/Pasted image 20260205004723.jpg> )
+
 
 - 이 **계단 현상(Aliasing)** 이 발생
   추후에 **Anti-Aliasing** 개념까지 들어감.
@@ -223,12 +241,17 @@
 #### 8. Post-Processing
 
 - **Bloom**
-![[Pasted image 20260205011112.jpg|500]]
+
+![]( <Resources/Pasted image 20260205011112.jpg> )
+
 - Color Gradient
-![[Color-Grading.gif|500]]
+
+![efe](Resources/Color-Grading.gif)
 
 - Anti-Aliasing x2 x4 x8
-![[Pasted image 20260205011515.png]]
+
+![sef]( <Resources/Pasted image 20260205011519.png> )
+
 
 ---
 ## 1. RP를 이해하기위한 소스 개념 이해하기
@@ -243,6 +266,8 @@
 - Material
 - Shader
 
+<br>
+
 ### 그래픽 처리 일련 과정
 
 - 1~8단계 **키워드 기억**하기
@@ -251,31 +276,36 @@
 
 ## 1) Built-in Pipeline (Legacy)
 
-![[Pasted image 20260205122537.png]]
+![]( <Resources/Pasted image 20260205122537.png> )
 
 - 개발자가 내부 구조를 수정할 수 없음
 - 유니티에서 제공해주는 옵션 조정만 가능
 
+<br>
 
 ## 2) SRP (Scriptable-Render-Pipeline) 
 -> 기반 템플릿 **URP/HDRP**
 
-![[Pasted image 20260205122639.png]]
+![]( <Resources/Pasted image 20260205122639.png> )
+
 
 - Built-in 한계?
 - SRP 초기: C#, HLSL 언어 (2018)
 - SRP 기반 템플릿 -> URP/HDRP (2019)
 
-![[Pasted image 20260205123131.png]]
+![]( <Resources/Pasted image 20260205123131.png> )
+
+<br>
 
 ### Q. 그래서 URP 장점은?
 
 - SRP Batcher (드로우 콜 최적화)
 - Forward+
 - GPU Resident Drawer
-  
+
 ---
-![[Pasted image 20260205123705.png]]
+![]( <Resources/Pasted image 20260205123705.png> )
+
 
 <-> Deffered RP
 
