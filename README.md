@@ -1,0 +1,2 @@
+# XR04_GODNOTE
+XR플밍 4기 
