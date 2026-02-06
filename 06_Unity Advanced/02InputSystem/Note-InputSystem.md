@@ -1,18 +1,16 @@
 ## 기존 Input 방식의 한계
 
-![[Pasted image 20260117005241.jpg|200]]
+![]( <Resources/Pasted image 20260117005241.jpg> )
 
-![[Pasted image 20260117005250.jpg|200]]
+![]( <Resources/Pasted image 20260117005250.jpg> )
 
-![[Pasted image 20260117005330.jpg|200]]
+
 
 - PC
 - Console
 - Mobile
 
 플랫폼 대응의 한계!
-
-![[Pasted image 20260117142349.png|400]]
 
 ---
 ## 기존 Input 시스템 한계 
@@ -45,7 +43,7 @@ Input Action Asset
 
 ### 구성 요소
 
-![[Pasted image 20260205090835.png|550]]
+![]( <Resources/Pasted image 20260205090835.png> )
 
 #### 1. Action Map
 
