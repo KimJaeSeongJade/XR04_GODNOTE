@@ -124,11 +124,11 @@
 
 ### 3-1.2 Auto Mapping Tools
 
-![]( <Resources/Pasted image 20260204204204.png> )
+- Blender
 
-![]( <Resources/imJ3y8h8k2UyUb16CCGLa35lmCz3Ho_fH9iWI52KhWxDIJ1bTd7DMGNCB83KoY3S51aRRjclO9dMpgL5gEoKyA.webp> )
+- 3ds MAX
 
-![]( <Resources/Pasted image 20260204204224.png> )
+- MAYA
 
 ### 3-2. Material
 
@@ -190,7 +190,7 @@
 [직접 설정]
 - **오클루전 컬링(CPU/GPU)**: 앞에 있는 물체에 완전히 가려졌는가? (가려진 놈 버려)
 
-![df](Resources/[Pasted image 20260205004153.png)
+![df](Resources/Pasted image 20260205004153.png)
 
 
 ### 4~5단계 (비주얼 담당 = 색 칠하기)
