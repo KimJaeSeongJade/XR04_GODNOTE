@@ -55,7 +55,7 @@ void LateUpdate()
 - 어떤 가상 카메라(Virtual Camera)를 이용할지 결정.
 - 블렌딩(전환 효과) 방식을 결정함.
 
-![[Pasted image 20260206012057.png|600]]
+![]( <Resources/Pasted image 20260206012057.png> )
 
 > **실제 카메라는Brain만 보고, Brain은 가상 카메라(Virtual Camera, 브이캠) 중 하나를 고름.**
 
@@ -95,8 +95,9 @@ Main Camera (실제 카메라)
 ---
 ## 3. Blend List Camera
 
-![[1_xinSNuxSsuwQ0P9yg2JrBA.gif|500]]
-![[20190705002334.gif]]
+![]( <Resources/1_xinSNuxSsuwQ0P9yg2JrBA.gif> )
+
+![]( <Resources/20190705002334.gif> )
 
 ### 3-1. 사례
 - 인트로 연출
@@ -112,8 +113,9 @@ Main Camera (실제 카메라)
 ---
 ## 4. Clear shot Camera (시야 확보 전문가)
 
-![[20181115204335.gif|500]]
-![[20181115210725.gif|500]]
+![]( <Resources/20181115204335.gif> )
+
+![]( <Resources/20181115210725.gif> )
 
 
 ### 4-1. 사례
@@ -127,9 +129,9 @@ Main Camera (실제 카메라)
 ---
 ## 5. Dolly Camera
 
-![[Pasted image 20260118204418.png|400]]
+![]( <Resources/Pasted image 20260118204418.png> )
 
-![[Pasted image 20260118204425.png|500]]
+![]( <Resources/Pasted image 20260118204425.png> )
 
 
 ### 5-1. 사례
@@ -145,8 +147,10 @@ Main Camera (실제 카메라)
 ---
 ## 6. Free Look Camera (3인칭 조작의 표준)
 
-![[20190706122422.gif]]
-![[img 11.gif|700]]
+![]( <Resources/20190706122422.gif> )
+
+![]( <Resources/img 11.gif> )
+
 
 ### 6-1. 사례
 - TPS
@@ -162,9 +166,12 @@ Main Camera (실제 카메라)
 ---
 ## 7. Target Group
 
-![[1_dPVMsNx4cNORYNFrTAW-4A.webp]]
-![[1_fOuPJ0iZnNA6Je7Flht6hw.gif|1500]]
-![[1_ywEjDLvpj9zgX8gwbgb1aA.gif|500]]
+![]( <Resources/1_dPVMsNx4cNORYNFrTAW-4A.webp> )
+
+![]( <Resources/1_fOuPJ0iZnNA6Je7Flht6hw.gif> )
+
+![]( <Resources/1_ywEjDLvpj9zgX8gwbgb1aA.gif> )
+
 
 ### 7-1. 사례
 - 보스 + 플레이어
