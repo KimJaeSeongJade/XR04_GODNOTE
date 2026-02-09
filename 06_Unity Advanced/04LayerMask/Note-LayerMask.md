@@ -3,9 +3,10 @@
 ### 1-1. Layer vs LayerMask
 
 [Layer]
-![[Pasted image 20260207005734.png]]
 
-![[Pasted image 20260207005739.png]]
+![]( <Resources/Pasted image 20260207005734.png> )
+
+![]( <Resources/Pasted image 20260207005739.png> )
 
 - 오브젝트는 단 1개의 레이어(Layer)만 가질 수 있다.
 - `LayerMask.NameToLayer("Player")`    이렇게 이름을 통해서 **레이어 인덱스(0~31)** 를 가져옴
