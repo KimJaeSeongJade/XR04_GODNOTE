@@ -154,19 +154,21 @@ if(mask.Contains(target, layer)) {}
 
 ---
 
-[Mission 1]
+### [Mission 1]
 
 1. 오브젝트 Cube, Sphere 생성.
 2. LayerMask 선언. (Cube, Sphere)
 3. Capsule(Player) 가 Ray를 forward 방향으로 쐈을 때, Cube , Sphere 맞는 대상을 1개만.
 
+<br>
 
-[Mission 2]
+### [Mission 2]
 
 1. ProjectSetting - Physics Settings 가지고 놀아보기
 
+<br>
 
-[(심화) Mission3] 선택
+### [(심화) Mission3] 선택
 
 큐브 2개, 원 2개 / Layer는 CubeLayer, SphereLayer 설정
 
