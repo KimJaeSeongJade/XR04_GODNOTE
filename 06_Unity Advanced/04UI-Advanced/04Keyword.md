@@ -21,3 +21,13 @@
 ---
 
 # UI 이해와 최적화
+
+## Keyword
+
+1. **Anchor vs Pivot 개념**
+2. **UI는 RectTransform**
+3. **Canvas Render Mode**
+4. **Canvas Scale Mode**
+5. (실습)Device Simulator로 UI 가지고 놀아보기 (해상도 대응)
+
+(+추가지식)Profiler로 UI 병목현상 잡는법
