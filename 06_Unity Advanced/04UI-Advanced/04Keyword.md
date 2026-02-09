@@ -28,6 +28,8 @@
 2. **UI는 RectTransform**
 3. **Canvas Render Mode**
 4. **Canvas Scale Mode**
-5. (실습)Device Simulator로 UI 가지고 놀아보기 (해상도 대응)
+5. UI 그려지는 방식
+6. 주의해서 사용해야 할 UI컴포넌트 (위치, 크기 계산 관점)
+7. (실습)Device Simulator로 UI Anchor 가지고 놀아보기 (해상도 대응)
 
-(+추가지식)Profiler로 UI 병목현상 잡는법
+(+추가)Profiler로 UI 병목현상 잡는법
