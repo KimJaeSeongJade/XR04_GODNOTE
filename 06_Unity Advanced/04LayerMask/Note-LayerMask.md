@@ -153,7 +153,15 @@ if(mask.Contains(target, layer)) {}
 
 
 ---
+## Keyword
 
+- Layer와 LayerMask 개념 이해하기
+- LayerMask 함수 종류
+- Layer 간 비트연산
+- 확장메서드(Extensions) LayerMask.Contains 응용사례
+(앞으로 작업하시면서 자주 사용하는 Util 함수가 뭐가 있을지 고민해보시면 좋습니다!)
+
+---
 ### [Mission 1]
 
 1. 오브젝트 Cube, Sphere 생성.
@@ -174,3 +182,5 @@ if(mask.Contains(target, layer)) {}
 
 - 키보드 1번을 누르면 CubeLayer와 SphereLayer 레이어가 붙은 녀석들한테 독뎀 부여 (디버깅)
 - 키보드 2번을 누르면 CubeLayer 레이어가 붙은 녀석만 독이 풀린다.
+
+
