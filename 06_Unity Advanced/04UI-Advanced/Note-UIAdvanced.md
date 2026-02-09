@@ -53,7 +53,7 @@
 > Canvas.SendWillRenderCanvases
 
 ---
-## 기억해야될 것
+## Keyword
 
 1. **Anchor vs Pivot 개념**
 2. **UI는 RectTransform**
