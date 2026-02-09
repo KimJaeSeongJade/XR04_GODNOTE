@@ -20,7 +20,7 @@
 ## 사용 예시
 
 ### [RT - Minimap]
-![]( <Resources/1_ZqhWCrhAQLXnCRTocCYyTw.gif> )
+![]( <Resources/Minimap.gif> )
 
 ### [RT - 저격총 Scope]
 https://www.reddit.com/r/Unity3D/comments/6ylhz9/realistic_scope_demo_2_parallax_shadow_and/
