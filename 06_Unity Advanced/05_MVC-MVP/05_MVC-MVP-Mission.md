@@ -113,7 +113,7 @@
 
 ### 2. 프로젝트 설정
 
-- **Asset:** 제안된 GUI Kit 2종 활용
+- **Asset:** 
 >- https://assetstore.unity.com/packages/2d/gui/icons/space-game-gui-kit-298577
 >- https://assetstore.unity.com/packages/2d/gui/free-casual-gui-332804
     
