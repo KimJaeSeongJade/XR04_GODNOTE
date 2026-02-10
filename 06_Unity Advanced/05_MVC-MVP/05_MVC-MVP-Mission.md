@@ -96,3 +96,32 @@
 - **효율성**: Presenter가 Update()에서 매 프레임 체크하지 않고, 오직 이벤트가 터질 때만 UI를 갱신하는가?
 
 - **확장성**: 새로운 UI(예: 보스 표정 변화)를 추가할 때 Presenter의 이벤트 연결 코드 외에 Model을 수정하지 않는가?
+
+---
+## [핵 심화] 상점 시스템 구축
+
+![]( <Resources/ShopUI.gif> )
+
+### 1. 목표
+
+- UI 성격(`Static`, `Dynamic`, `Popup`)에 따른 계층 구조 이해 및 관리
+    
+- **MVP 패턴**을 활용한 데이터(Model)와 화면(View)의 완전한 분리
+    
+- 이벤트 기반 UI 갱신 메커니즘 습득
+
+
+### 2. 프로젝트 설정
+
+- **Asset:** 제안된 GUI Kit 2종 활용
+>- https://assetstore.unity.com/packages/2d/gui/icons/space-game-gui-kit-298577
+>- https://assetstore.unity.com/packages/2d/gui/free-casual-gui-332804
+    
+### 3. 기능 및 데이터 규칙
+
+- **아이템:** 포션 (3종 고정)
+    
+- **경제:** 구매가 100G / 판매가 50G / 초기 자산 500G
+    
+- **조작:** `S` 키로 상점 UI (Open/Close)
+
