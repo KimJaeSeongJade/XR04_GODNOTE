@@ -110,18 +110,21 @@
     
 - 이벤트 기반 UI 갱신 메커니즘 습득
 
+<br>
 
 ### 2. 프로젝트 설정
 
 - **Asset:** 
 >- https://assetstore.unity.com/packages/2d/gui/icons/space-game-gui-kit-298577
 >- https://assetstore.unity.com/packages/2d/gui/free-casual-gui-332804
-    
+
+<br>
+
 ### 3. 기능 및 데이터 규칙
 
 - **아이템:** 포션 (3종 고정)
     
 - **경제:** 구매가 100G / 판매가 50G / 초기 자산 500G
     
-- **조작:** `S` 키로 상점 UI (Open/Close)
+- **조작:** `S` 키로 상점 UI (Open/Close) + (GIF 참고)
 
