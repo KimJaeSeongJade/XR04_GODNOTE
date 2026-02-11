@@ -16,14 +16,18 @@ Walking <-> Running
 - **Animation (Legacy)**
 	- 단순한 클립 재생 (단발성 연출)
 	- .anim 파일
-![[Pasted image 20260211030308.png]]
+
+
+![]( <Resources/Pasted image 20260211030308.png> )
 
 
 - **Animator (New)**
 	- 상태 전이가 활발한데 제어도 필요할 때
 	- .controller 파일
 	- Parameter 탭 수치를 조절
-![[Pasted image 20260211030255.png]]
+
+
+![]( <Resources/Pasted image 20260211030255.png> )
 
 
 Animtion과 Animator가 둘 다 사용하는 것 -> **Animation Clip** (녹화본)
@@ -47,14 +51,17 @@ Animtion과 Animator가 둘 다 사용하는 것 -> **Animation Clip** (녹화�
 
 > 캐릭터가 취할 수 있는 각각의 행동 단위
 
-![[Pasted image 20260211102910.png]]
+![]( <Resources/Pasted image 20260211102910.png> )
+
 
 #### 3-2. Transition (상태 전이 표시, 화살표)
 
 > **상태(State)** <-> **상태(State)** 를 잇는 통로
 
-![[Pasted image 20260211103607.png|500]]
-![[Pasted image 20260211103549.png|500]]
+![]( <Resources/Pasted image 20260211103607.png> )
+
+![]( <Resources/Pasted image 20260211103549.png> )
+
 
 #### 3-3. Parameter
 
