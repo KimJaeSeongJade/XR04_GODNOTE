@@ -49,13 +49,15 @@
 - **모양**: 구
 - **특징**: 전방향 발사
 - **사례**: 횃불, 랜턴, 모닥불, 마법 효과, 반딧불
-![[XR-Programming 4기/교과목&교안/05_UnityEngine3D_응용 프로그래밍/07_빛_CC_타임라인_NavMesh/Resources/img 2.gif|300]]
+
+![]( <Resources/img 2.gif> )
 
 3. **Spot Light**
 - **모양**: 원뿔형 조명
 - **특징**: 원뿔형 발사
 - **사례**: 손전등, 가로등
-![[XR-Programming 4기/교과목&교안/05_UnityEngine3D_응용 프로그래밍/07_빛_CC_타임라인_NavMesh/Resources/img.gif|250]]
+
+![]( <Resources/img.gif> )
 
 4. **Area Light**
 - 이 친구만 **Baked** -> 왜? 연산 비용 비싸서
@@ -72,7 +74,7 @@
 ---
 ## Light Setting
 
-![[Pasted image 20260127105624.png|600]]
+![]( <Resources/Pasted image 20260127105624.png> )
 
 - **Lighting Settings Asset**
 
