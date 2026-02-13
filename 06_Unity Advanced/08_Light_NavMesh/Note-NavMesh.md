@@ -3,8 +3,9 @@
 > 이동 로직을 코드로 짜지 않고 사용하는 시스템
 > 내부적으로 **(Graph)** 로 데이터화 해서 성능-안정성 우수함.
 
-![[Pasted image 20260203092513.jpg]]
-![[Pasted image 20260203092524.png|600]]
+![]( <Resources/Pasted image 20260203092513.jpg> )
+
+![]( <Resources/Pasted image 20260203092524.png> )
 
 > **NavMesh** 는 Bake 시점에서 계산이 끝남.
 
@@ -23,7 +24,7 @@ Unity 씬을 훑음
 
 ### 2. 공간을 폴리곤/면(Polygon)으로 분해/생성
 
-![[Pasted image 20260203092524.png|400]]
+![]( <Resources/Pasted image 20260203092524.png> )
 
 - 다각형(Polygon)으로 쪼갬
 - 이동에 필요한 정보만 남김
@@ -34,7 +35,8 @@ Unity 씬을 훑음
 
 ### 4. Area - Cost 저장
 
-![[Pasted image 20260213172317.png]]
+![]( <Resources/Pasted image 20260213172317.png> )
+
 
 - 이동 우선순위를 정함.
 
@@ -87,13 +89,16 @@ agent.SetDestination(target.position);
 
 ### 1. NavMesh Surface - 길 만들기
 
-![[Pasted image 20260213173949.png]]
+![[]]
+![]( <Resources/Pasted image 20260213173949.png> )
+
 
 - 걸어다닐 수 있는 공간인지 판별해주는 매니저 역할
 
 ### 2. NavMesh Agent
 
-![[Pasted image 20260213174149.png]]
+![]( <Resources/Pasted image 20260213174149.png> )
+
 #### 역할
 - 이동
 - 회전
@@ -117,7 +122,8 @@ agent.SetDestination(target.position);
 
 ### 3. NavMesh Obstacle - 동적 장애물
 
-![[Pasted image 20260213174551.png]]
+![]( <Resources/Pasted image 20260213174551.png> )
+
 
 #### 필수 기능
 - Carving [ON] -> 못가는 길을 만듦.
@@ -129,7 +135,8 @@ agent.SetDestination(target.position);
 ---
 ##  Agent Settings
 
-![[스크린샷 2026-02-02 175430.png]]
+![]( <Resources/스크린샷 2026-02-02 175430.png> )
+
 
 - **Raidus/Height** -> 캐릭터 부피/크기
 - Setp Height/Max Slope -> 계단-경사 허용치
@@ -138,7 +145,7 @@ agent.SetDestination(target.position);
 
 ## Areas
 
-![[스크린샷 2026-02-02 175440.png]]
+![]( <Resources/스크린샷 2026-02-02 175440.png> )
 
 - 0~31번까지 있음
 - **Cost = 선호도** (낮을수록 우선순위)
@@ -146,7 +153,7 @@ agent.SetDestination(target.position);
 ---
 ## NavMesh Link
 
-![[Pasted image 20260202180631.png]]
+![]( <Resources/Pasted image 20260202180631.png> )
 
 - 끊긴 길 연결
 	- 점프
@@ -156,7 +163,7 @@ agent.SetDestination(target.position);
 ---
 ## NavMesh Modifier Volume
 
-![[Pasted image 20260202180724.png]]
+![]( <Resources/Pasted image 20260202180724.png> )
 
 ### 역할
 - 특정 영역의 길을 설정
