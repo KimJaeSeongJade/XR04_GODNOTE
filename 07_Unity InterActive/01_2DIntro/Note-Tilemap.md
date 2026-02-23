@@ -21,11 +21,11 @@
 
 > "개별 Tile 에 칠하기 가능"
 
-## 4-2.
+## 4-2. Flood fill with active brush(G)
 
 > "Tile 한 번에 채우기 가능"
 
-## 4-3. 회전
+## 4-3. Tranform 조정
 
 > "다음 Tile 회전해서 칠하기 가능"
 
@@ -37,8 +37,6 @@
 
 > "애니메이션 들어간 캐릭터를 넣어서 Brush로 쭉 그려보기"
 
-![[Pasted image 20260220024827.png]]
-
 
 ## 4-6. Group Brush 옵션
 
@@ -47,6 +45,7 @@
 
 ## 4-7. Random Brush
 
+> 랜덤으로 칠해질 Tile을 등록하고 Grid에 찍어보기
 
 ## 4-8. Rule Tile
 
