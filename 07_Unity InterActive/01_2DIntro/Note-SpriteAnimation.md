@@ -39,7 +39,7 @@ Sprite Sheet가 “개별 Sprite들”로 분리된다.
 
 ## 3-1. Pixels Per Unit (PPU)
 
-![[Pasted image 20260220014637.png|500]]
+![]( <Resources/Pasted image 20260220014637.png> )
 
 
 > “PPU는 픽셀을 월드 단위로 환전하는 기준”
