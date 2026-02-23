@@ -120,7 +120,7 @@ void Update()
 
 
 [UML]
-![[Pasted image 20260222022055.png|400]]
+![]( <Resources/Pasted image 20260222022055.png> )
 
 [동작 흐름]
 ```powershell
