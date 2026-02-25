@@ -14,7 +14,7 @@
 - `FCost (A*)`: gCost + hCost - **int**
 - `parent` - **Node**
 
-![]( <Resources/Pasted image 20260224171307.png) )
+![]( <Resources/Pasted image 20260224171307.png> )
 
 **Node를 알면, Grid는 Node들의 집합체임을 알 수 있음**
 
@@ -81,7 +81,7 @@
 ---
 # A*
 
-![]( <Resources/Pasted image 20260224171307.png) )
+![]( <Resources/Pasted image 20260224171307.png> )
 
 - **gCost**: 시작점 노드와 현재 노드 사이의 거리
 - **hCost**: 현재 노드와 타겟 노드 사이의 거리
